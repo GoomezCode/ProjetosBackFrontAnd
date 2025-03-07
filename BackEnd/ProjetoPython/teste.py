@@ -1,0 +1,1 @@
+print("Escreva Seus conhecimentos aqui Mano Yan")
