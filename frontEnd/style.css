@@ -2,5 +2,97 @@
     margin: 0;
     border: 0;
     padding: 0;
-    outline: none;
 }
+
+#ContainerMae{
+    border: 2px solid black;
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*Style Registro*/
+.containerRegistro{
+    width: auto;
+    margin: 10px;
+    border: 2px solid red;
+    align-items: center;
+}
+
+.iconUsuario{
+    margin-top: 10px;
+    margin-left: 230px;
+    text-align: center;
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+.UseNameRegistro{
+    margin: 20px;
+    text-align: center;
+}
+.UseNameRegistro input{
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.UseNameRegistro input:focus{
+    transform: scale(1.3);
+}
+.inputRegistro{
+    display: flex;
+}
+.inputRegistro input{
+    border: 3px solid black;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+.inputRegistro input:focus{
+    transform: scale(1.3);
+    text-align: center;
+}
+
+.buttonRegistro{
+    text-align: center;
+}
+.buttonRegistro button{
+    padding: 15px 90px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+    
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.buttonRegistro button:hover{
+    transform: scale(1.1);
+}
+.IconsRegistro{
+    text-align: center;
+}
+.IconsRegistro span{
+    margin: 40px;
+    text-align: center;
+}
+/*Fechamento do Style Registro*/
