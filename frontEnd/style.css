@@ -6,13 +6,14 @@
 
 #ContainerMae{
     border: 2px solid black;
+    border-radius: 10px;
     width: auto;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
-
+    display: flex;
+    flex-direction: row;
 }
 
 /*Style Registro*/
@@ -102,20 +103,78 @@
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /*Style Login*/
+.containerLogin{
+    width: auto;
+    align-items: center;
+    margin-top: 7%;
+}
+
+.ItemsLogin{
+    border: 2px solid red;
+    margin: 10px;
+    
+}
+
+.IconUserLogin{
+    margin-top: 20px;
+    margin-left: 30%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.inputLogin nav{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.inputLogin input{
+    border: 3px solid  black;
+    font-weight: bold;
+    margin: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.inputLogin input:focus{
+    text-align: center;
+    transform: scale(1.2);
+}
+.buttonLogin nav{
+    text-align: center;
+}
+.buttonLogin button{ 
+    cursor: pointer;   
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+.buttonLogin button:hover{
+    transform: scale(1.2);
+}
+.iconsLogin{
+    text-align: center;
+    margin-top: 10px;
+}
+.iconsLogin span{
+    cursor: pointer;
+    margin: 20px;
+}
 /*Fechamento do Style Login*/
+
+/*
+.TamparDiv{
+    background-color: blue;
+    color: blue;
+    position: absolute;
+    border-radius: 5px;
+    padding: 290px;
+    padding-bottom: 320px;
+}
+*/
