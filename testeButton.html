@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testar Codigos | GoomezCode</title>
+</head>
+<body>
+    <style>
+    body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            gap: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            transition: transform 0.5s ease, width 0.5s ease, height 0.5s ease;
+        }
+
+        .animado {
+            transform: translateX(200px);
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+
+
+
+<div class="box" id="minhaDiv"></div>
+
+<button type="submit" id="meuBotao">Clique Aqui</button>
+
+<script>
+    document.getElementById("meuBotao").addEventListener("click", function(event) {
+            event.preventDefault(); // Evita o comportamento padrão do botão de submit
+            document.getElementById("minhaDiv").classList.toggle("animado");
+        });
+</script>
+</body>
+</html>

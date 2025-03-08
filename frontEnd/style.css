@@ -20,7 +20,6 @@
 .containerRegistro{
     width: auto;
     margin: 10px;
-    border: 2px solid red;
     align-items: center;
 }
 
@@ -110,7 +109,6 @@
 }
 
 .ItemsLogin{
-    border: 2px solid red;
     margin: 10px;
     
 }
@@ -168,13 +166,26 @@
 }
 /*Fechamento do Style Login*/
 
-/*
 .TamparDiv{
-    background-color: blue;
-    color: blue;
+    background-color: white;
+    color: white;
     position: absolute;
     border-radius: 5px;
     padding: 290px;
-    padding-bottom: 320px;
+    padding-bottom: 310px;
+    left: 3px;
+    top: 3px;
+    transition: transform 0.5s;
+    z-index: 1;
 }
-*/
+
+.MoverDivLogin{
+    color: transparent;
+    padding: 150px;
+    top: 20px;
+    padding-bottom: 400px;
+    padding-left: 80px;
+    transform: translateX(655px);
+    background-color: white;
+    z-index: 1;
+}

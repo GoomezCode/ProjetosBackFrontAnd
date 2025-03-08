@@ -48,7 +48,7 @@
                             Confirmar
                         </button>
 
-                        <button type="submit">
+                        <button type="submit" id="irLogin">
                             FazerLogin
                         </button>
                     </div>
@@ -94,7 +94,7 @@
     <div class="buttonLogin">
         <nav>
             <button type="submit">Confirmar</button>
-            <button type="submit">FazerRegistro</button>
+            <button type="submit" id="irRegistro">FazerRegistro</button>
         </nav>
     </div>
         
@@ -116,10 +116,25 @@
 
 <!--Fechamento do Login-->
 
-<div class="TamparDiv">
+<div class="TamparDiv" id="minhaDiv">
     dasdasdasda
 </div>
-        
+      
+<script>
+    document.getElementById("irRegistro").addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById("minhaDiv").classList.toggle("MoverDivLogin");
+    
+})
+
+document.getElementById("irLogin").addEventListener("click", function(event){
+    event.preventDefault();
+    document.getElementById("minhaDiv").classList.toggle("MoverDivLogin");
+    })
+
+    
+
+</script>
 </div>
 </body>
 </html>
